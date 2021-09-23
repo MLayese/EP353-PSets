@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "Hello.C": "cpp",
+        "Bool.C": "cpp",
+        "Logic.C": "cpp",
+        "math.h": "c",
+        "random": "c",
+        "stdio.h": "c"
+    }
+}
