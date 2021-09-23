@@ -9,6 +9,8 @@ int main (int argc, const char * argv[]){
     double loud = (-loudness);   //Converted my char variable into a double called 'loud'
     float amp = pow(10, loud/20);  */
 
+    // Couldn't get the above to work properly on time so I opted for a more dry program. Oh well 
+
     char loudness = 70;
     double loud = (-loudness);   //Converted my char variable into a double called 'loud'
     float amp = pow(10, loud/20);  
