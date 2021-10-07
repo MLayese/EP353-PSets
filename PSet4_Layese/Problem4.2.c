@@ -4,7 +4,8 @@
 // Holds an undefined int numbers[] for the array 
 void dog(int numbers[], int n)
 {
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) 
+    {
         printf("The value of arr at index [%d] is %d \n", i, numbers[i]);
     }
 }
@@ -15,12 +16,14 @@ void god(int numbers[], int n)
 {
     int backwards[n];
  
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) 
+    {
         backwards[n - 1 - i] = numbers[i]; 
         // Gets all the integers out in reverse order
     }
  
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) 
+    {
         numbers[i] = backwards[i]; 
     }
 }
