@@ -3,7 +3,7 @@
 
 int main (int argc, const char * argv[]){
 
-    /*char loudness;
+    char loudness;
     printf("Enter 0 - 127: ");   //Input a random number as char
     scanf("%s", &loudness);
     double loud = (-loudness);   //Converted my char variable into a double called 'loud'
