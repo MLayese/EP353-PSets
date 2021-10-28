@@ -48,7 +48,7 @@ int main(){
   scanf("%d", veloc);
 
   // TODO: Map the series aray to the mapping table
-  for (int i = 0; i < row; i++)
+  for (int i = 0; i < rowSize; i++)
   {
     tone[i].pitch = series[i];
     tone[i].duration = duration;

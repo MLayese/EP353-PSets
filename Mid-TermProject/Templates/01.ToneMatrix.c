@@ -202,3 +202,12 @@ void shuffle(int *array, size_t n)
       }
   }
 }
+
+  // TEST NODE//
+    /* we want the interval to be negative to make sums easier later on.
+		 * thus, if the ith note in the base tone row is less than the
+		 * 0th note, simply subtract the 0th note from the ith note;
+		 * on the other hand, if the ith note is greater, again subtract the
+		 * 0th note from the ith note, but also subtract 12 to make it the
+		 * negative difference mod 12.
+		  interval = (tr[i] < tr[0]) ? tr[i] - tr[0] : tr[i] - tr[0] - 12; */
