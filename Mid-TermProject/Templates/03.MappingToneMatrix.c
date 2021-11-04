@@ -20,7 +20,9 @@ int main(){
 
   int rowSize = sqrt(getSize("matrix.txt"));
   Note tone[rowSize];
-
+  int *veloc = malloc(sizeof(int)); 
+  char *duration = "8n";
+    
   // TODO: Check to make sure that the table size is at least 
   // the size of row in the original matrix.
   
@@ -40,9 +42,6 @@ int main(){
 
   // Read tone values and assign to the series array
   readSeries(series, numSeries);
-
-  int *veloc = malloc(sizeof(int));
-  char *duration = "8n";
 
   printf("MIDI Velocity for your tone row: ");
   scanf("%d", veloc);

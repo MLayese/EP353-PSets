@@ -163,7 +163,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 470.0, 259.0, 29.5, 22.0 ],
-					"text" : "-30"
+					"text" : "-20"
 				}
 
 			}
@@ -254,8 +254,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 816.0, 9.0, 113.0, 22.0 ],
-					"text" : "metro 8n @active 1"
+					"patching_rect" : [ 816.0, 9.0, 119.0, 22.0 ],
+					"text" : "metro 16n @active 1"
 				}
 
 			}
@@ -463,7 +463,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 470.0, 9.0, 113.0, 22.0 ],
-					"text" : "metro 1n @active 1"
+					"text" : "metro 4n @active 1"
 				}
 
 			}
@@ -807,7 +807,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 119.0, 9.0, 113.0, 22.0 ],
-					"text" : "metro 4n @active 1"
+					"text" : "metro 8n @active 1"
 				}
 
 			}
@@ -1395,14 +1395,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "melody.txt",
-				"bootpath" : "~/Desktop/GitHub/EP-353/EP-353_PSets/Mid-Term/Templates",
+				"bootpath" : "~/Desktop/GitHub/EP-353/EP-353_PSets/Mid-TermProject/Templates",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bass.txt",
-				"bootpath" : "~/Desktop/GitHub/EP-353/EP-353_PSets/Mid-Term/Templates",
+				"bootpath" : "~/Desktop/GitHub/EP-353/EP-353_PSets/Mid-TermProject/Templates",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "drum.txt",
+				"bootpath" : "~/Desktop/GitHub/EP-353/EP-353_PSets/Mid-TermProject/Templates",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
