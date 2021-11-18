@@ -139,7 +139,7 @@ void generateMatrix(int *matrix, int rowSize)
   }
   // TODO: Add back the root tone to the matrix
   for (int i = 0; i < rowSize; i++)
-    {
+  {
     for(int k =0; k < rowSize; k ++)
     {
       if(matrix[i*rowSize + k] + root >= rowSize)
@@ -157,6 +157,7 @@ void generateMatrix(int *matrix, int rowSize)
 }
 
 //-------------------- Utility Functions --------------------
+{
 void saveMatrix(int *matrix, int rowSize){
   FILE *file; // Keep a reference to a text file
   file = fopen("matrix.txt", "w"); // open a text file in the write mode
@@ -202,7 +203,7 @@ void shuffle(int *array, size_t n)
       }
   }
 }
-
+}
   // TEST NODE//
     /* we want the interval to be negative to make sums easier later on.
 		 * thus, if the ith note in the base tone row is less than the
