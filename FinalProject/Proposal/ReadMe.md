@@ -1,7 +1,7 @@
 #             Final Project Proposal
 
 ### Likely Title of the project
-* Good question. I'll look some up before I submit  this
+* Apollo.ai? Maybe after the Greek God of Music - it's all I can think of right now.
 
 ### Project proposal
 * My project would be creating an algo that procedurally generates music based off of what it hears.
